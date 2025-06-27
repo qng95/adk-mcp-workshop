@@ -11,7 +11,6 @@ from mcp import StdioServerParameters
 load_dotenv() # load environment variables from .env file
 
 #GEMINI_MODEL = "gemini-2.0-flash-exp"
-#GEMINI_MODEL = "gemini-exp-1206"
 GEMINI_MODEL = "gemini-2.0-flash"
 
 
