@@ -13,9 +13,9 @@ load_dotenv() # load environment variables from .env file
 # These are all free to use models, but they have different limits on the number of requests per day.
 # In total we will 1600 requests per day to try
 
-GEMINI_MODEL = "gemini-2.0-flash-lite" # 1000 requests / day
+#GEMINI_MODEL = "gemini-2.0-flash-lite" # 1000 requests / day
 #GEMINI_MODEL = "gemini-2.5-flash" # 250 requests / day
-#GEMINI_MODEL = "gemini-2.0-flash" # 200 requests / day
+GEMINI_MODEL = "gemini-2.0-flash" # 200 requests / day
 #GEMINI_MODEL = "gemini-2.0-flash-exp" # 50 requests / day
 #GEMINI_MODEL = "gemini-1.5-flash" # 50 requests / day
 #GEMINI_MODEL = "gemini-1.5-flash-8b" # 50 requests / day
